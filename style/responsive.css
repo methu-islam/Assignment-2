@@ -8,3 +8,28 @@
         flex-direction: column;
         gap: 10px;
 }
+.nav-container{
+    width: 100%;
+    justify-content: center;
+}
+
+.item-container{
+    width: 100%;
+}
+.banner-section{
+    flex-direction: column;
+}
+.text-container{
+    width: 100%;
+    order: 2;
+}
+.banner-images-container{
+    width: 100%;
+}
+.banner-images-container img{
+    width: 100%;
+    order: 1;
+    
+}
+}
+  

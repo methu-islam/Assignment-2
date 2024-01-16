@@ -63,11 +63,17 @@ body {
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 2px solid red;
     
 }
 .text-title{
     text-align: center;
+    /* display: flex; */
+    justify-content: center;
     color: #FFF;
+    display: grid;
+    gap: 10px;
+    /* padding: 20px; */
     
     
 }
@@ -75,7 +81,27 @@ body {
 .explore{
     font-size: 64px;
     
+    
 }
+
+.where-go{
+    width: 90px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+button, .background-color{
+    background: #FF5400;
+    border-radius: 8px;
+    width: 90px;
+    height: 40px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+/* banner section start */
+
 
 /* banner-section style start */
 
@@ -84,6 +110,9 @@ body {
     /* border: 2px solid tomato; */
     min-height: 400px;
     display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 10px;
     
 }
 
@@ -103,6 +132,8 @@ body {
     height: 100%;
     margin: 0 auto;
     object-fit: cover;
+    border-radius: 18px;
+    
 }
 
 .popular{
@@ -128,4 +159,10 @@ body {
     background-color: #FF5400;
     color: #FFFFFF;
     font-size: 20px;
+    
 }
+
+/* banner-section style start */
+
+/* Choose Your Destination stra */
+
