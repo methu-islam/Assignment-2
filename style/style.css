@@ -166,3 +166,29 @@ button, .background-color{
 
 /* Choose Your Destination stra */
 
+
+.destination-section{
+    max-width: 1250;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    
+}
+
+.choose{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 20px;
+    color: #131318;
+}
+
+
+.images-container{
+    width: 573px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+   
+}
