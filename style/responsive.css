@@ -32,4 +32,24 @@
     
 }
 }
+
+@media screen and (max-width:600px) {
+    .images-container{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .image-container{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .photo-container{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+}
   

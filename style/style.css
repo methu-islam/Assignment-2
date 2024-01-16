@@ -100,15 +100,16 @@ button, .background-color{
     font-size: 16px;
 }
 
-/* banner section start */
+/* banner section end */
 
 
 /* banner-section style start */
 
 .banner-section{
     max-width: 1250px;
-    /* border: 2px solid tomato; */
+    /* height: 400px; */
     min-height: 400px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -116,9 +117,9 @@ button, .background-color{
     
 }
 
-.text-container{
-    /* border: 2px solid green; */
+.text-container {
     width: 50%;
+    padding: 20px;
 }
 
 .banner-images-container{
@@ -162,7 +163,7 @@ button, .background-color{
     
 }
 
-/* banner-section style start */
+/* banner-section style end */
 
 /* Choose Your Destination stra */
 
@@ -186,9 +187,32 @@ button, .background-color{
 
 .images-container{
     width: 573px;
+    height: 300px;
     /* border: 2px solid red; */
     border-radius: 20px;
     display: flex;
     gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
    
 }
+.image-container{
+    width: 573;
+    height: 250px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.photo-container{
+    width: 573;
+    height: 305px;
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Choose Your Destination end */
