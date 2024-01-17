@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-/* *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -60,7 +56,7 @@ body {
 /* banner section start */
 
 .banner-images{
-    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
