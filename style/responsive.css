@@ -36,20 +36,30 @@
 @media screen and (max-width:600px) {
     .images-container{
         flex-direction: column;
-        width: 100%;
-        gap: 20px;
+        
     }
 
     .image-container{
         flex-direction: column;
-        width: 100%;
-        gap: 20px;
+       
     }
 
     .photo-container{
         flex-direction: column;
-        width: 100%;
+        
+    }
+    /* from style mobile */
+
+    .from-section{
+        flex-direction: column;
         gap: 20px;
+    }
+    .box-container {
+        width: 100%;
+    }
+    .discount-container{
+        width: 100%;
+        
     }
 }
   
