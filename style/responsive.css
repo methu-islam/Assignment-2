@@ -34,19 +34,25 @@
 }
 
 @media screen and (max-width:600px) {
+    .destination-section{
+        flex-direction: column;
+        grid-template-columns: repeat(2,1fr);
+       
+    }
     .images-container{
         flex-direction: column;
         
+        grid-template-columns: repeat(2,1fr);
     }
 
     .image-container{
         flex-direction: column;
-       
+        gap: 40px;
     }
 
     .photo-container{
         flex-direction: column;
-        
+        gap: 40px;
     }
     /* from style mobile */
 
